@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoostUp - Twoja agencja social media, która zwiększa zasięgi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../media/icon.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">O nas</a></li>
+                <li><a href="#services">Usługi</a></li>
+                <li><a href="#contact-form">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="banner">
+        <img src="../media/logo.png" alt="Logo">
+        <h1>Zwiększaj zasięgi. Zdobądź klientów. Boostuj swój biznes!</h1>
+        <br>
+    </section>
+
+    <section id="about">
+        <br>
+        <h1>O nas</h1>
+        <p>
+            Jesteśmy zespołem pasjonatów, którzy pomagają firmom rozwijać się w świecie cyfrowym. 
+            <br>
+            Naszym celem jest zwiększanie zasięgów, zdobywanie nowych klientów i skuteczne wspieranie biznesów w osiąganiu sukcesu. 
+            <br>
+            Łączymy nowoczesne technologie z kreatywnym podejściem, aby dostarczać rozwiązania dopasowane do
+            indywidualnych potrzeb każdego klienta.
+        </p>
+        <p>
+            Działamy z zaangażowaniem i profesjonalizmem, stawiając na transparentną komunikację i długotrwałą
+            współpracę. Z nami Twój biznes zyska nie tylko widoczność, ale i realne efekty.
+        </p>
+        <br>
+    </section>
+
+    <section id="services">
+        <div class="service-card">
+            <img src="../media/insta.png" alt="Instagram">
+            <h1>Reklamy na instagramie</h1>
+            <p>
+                Docieraj do tysięcy potencjalnych klientów dzięki dobrze zoptymalizowanym kampaniom reklamowym na
+                Instagramie. 
+                <br>
+                Tworzymy angażujące kreacje i skuteczne strategie, które przyciągają uwagę i zwiększają
+                sprzedaż.
+            </p>
+        </div>
+        <div class="service-card">
+            <img src="../media/content.png" alt="Content Marketing">
+            <h1>Content Marketing</h1>
+            <p>
+                Buduj zaufanie i lojalność poprzez wartościowe treści. 
+                <br>
+                Tworzymy posty, grafiki, artykuły i kampanie
+                dopasowane do Twojej grupy docelowej. 
+                <br>
+                Pomagamy firmom mówić językiem swoich klientów.
+            </p>
+        </div>
+        <div class="service-card">
+            <img src="../media/report.png" alt="Raporty i analizy">
+            <h1>Raporty i analizy</h1>
+            <p>
+                Z nami wiesz, co działa. 
+                <br>
+                Regularnie analizujemy wyniki kampanii i zachowania odbiorców, a dane
+                przedstawiamy w przejrzysty i zrozumiały sposób. 
+                <br>
+                Dzięki temu możesz podejmować trafne decyzje biznesowe.
+            </p>
+        </div>
+        <br>
+    </section>
+
+    <section id="contact-form">
+        <h1 style="text-align: center;">Napisz do nas!</h1>
+        <form method="post">
+            <label>Imię:</label>
+            <input type="text" name="name" id="name" required>
+
+            <label>Email:</label>
+            <input type="email" name="mail" id="mail" required>
+
+            <label>Wiadomość do nas:</label>
+            <textarea name="message" id="message" rows="5" required></textarea>
+            
+            <button type="submit">Wyślij</button>
+        </form>
+    </section>
+
+    <footer>
+        <div id="footer-container">
+            <div id="footer-left">
+                <h2>Dane kontaktowe:</h2>
+                <p>Email: boostup@gmail.com</p>
+            </div>
+            <div id="footer-center">
+                <h3>&copy; Wszelkie prawa zastrzeżone</h3>
+            </div>
+            <div id="footer-right">
+                <h2>Social media:</h2>
+                <h5>
+                    Nasz instagram:
+                    <a href="https://instagram.com" target="_blank">
+                        <img src="../media/insta.png" alt="Instagram" width="20" height="20">
+                    </a>
+                    <br><br>
+                    Nasz facebook:
+                    <a href="https://facebook.com" target="_blank">
+                        <img src="../media/fb.png" alt="Facebook" width="20" height="20">
+                    </a>
+                </h5>
+            </div>
+        </div>
+    </footer>
+    <button id="scrollBtn">↑</button>
+    <script src="script.js"></script>
+</body>
+</html>
